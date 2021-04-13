@@ -1,12 +1,9 @@
-# my numpy and qiskit make too many warnings
-import warnings
-warnings.filterwarnings('ignore')
-
 import numpy as np
 import qiskit
-# from qiskit import IBMQ, BasicAer
-# from qiskit import QuantumCircuit, ClassicalRegister, QuantumRegister, execute
 import sys
+# my numpy and qiskit make too many warnings
+# import warnings
+# warnings.filterwarnings('ignore')
 
 if len(sys.argv) < 2:
     print("No QASM file")
