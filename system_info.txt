@@ -1,0 +1,298 @@
+SUDO_GID=1000
+MAIL=/var/mail/USER
+USER=USER
+HOME=/USER
+COLORTERM=truecolor
+SUDO_UID=1000
+LOGNAME=USER
+TERM=xterm-256color
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+DISPLAY=:1
+LANG=en_US.UTF-8
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+SUDO_COMMAND=/home/e/school/research/Author-Kit/collect_environment.sh
+SHELL=/bin/bash
+SUDO_USER=e
+PWD=/home/e/school/research/lbl/approximate-circuits
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+Linux leafcutter 5.8.0-53-generic #60~20.04.1-Ubuntu SMP Thu May 6 09:52:46 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          12
+On-line CPU(s) list:             0-11
+Thread(s) per core:              2
+Core(s) per socket:              6
+Socket(s):                       1
+NUMA node(s):                    1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           158
+Model name:                      Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+Stepping:                        10
+CPU MHz:                         4095.989
+CPU max MHz:                     4500.0000
+CPU min MHz:                     800.0000
+BogoMIPS:                        5199.98
+Virtualization:                  VT-x
+L1d cache:                       192 KiB
+L1i cache:                       192 KiB
+L2 cache:                        1.5 MiB
+L3 cache:                        12 MiB
+NUMA node0 CPU(s):               0-11
+Vulnerability Itlb multihit:     KVM: Mitigation: VMX disabled
+Vulnerability L1tf:              Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+Vulnerability Mds:               Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full generic retpoline, IBPB conditional, IBRS_FW, STIBP conditional, RSB filling
+Vulnerability Srbds:             Mitigation; Microcode
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+MemTotal:       16203716 kB
+MemFree:          450572 kB
+MemAvailable:    4149344 kB
+Buffers:         1255704 kB
+Cached:          3074624 kB
+SwapCached:        20604 kB
+Active:         12075136 kB
+Inactive:        2224280 kB
+Active(anon):    9680516 kB
+Inactive(anon):  1017300 kB
+Active(file):    2394620 kB
+Inactive(file):  1206980 kB
+Unevictable:         396 kB
+Mlocked:              16 kB
+SwapTotal:       2097148 kB
+SwapFree:        1197440 kB
+Dirty:              1304 kB
+Writeback:             0 kB
+AnonPages:       9957492 kB
+Mapped:          1639320 kB
+Shmem:            731252 kB
+KReclaimable:     439244 kB
+Slab:             826464 kB
+SReclaimable:     439244 kB
+SUnreclaim:       387220 kB
+KernelStack:       34848 kB
+PageTables:       124680 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    10199004 kB
+Committed_AS:   31879040 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      100184 kB
+VmallocChunk:          0 kB
+Percpu:            18048 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:     9207020 kB
+DirectMap2M:     7378944 kB
+DirectMap1G:           0 kB
+System:
+  Host: leafcutter Kernel: 5.8.0-53-generic x86_64 bits: 64 
+  Desktop: Gnome 3.36.7 Distro: Ubuntu 20.04.2 LTS (Focal Fossa) 
+Machine:
+  Type: Laptop System: Dell product: G5 5590 v: N/A serial: DKP7HX2 
+  Mobo: Dell model: 0MXHK3 v: A01 serial: /DKP7HX2/CNPEC0001U03P7/ 
+  UEFI: Dell v: 1.11.1 date: 11/11/2019 
+Battery:
+  ID-1: BAT0 charge: 55.8 Wh condition: 55.8/60.0 Wh (93%) 
+CPU:
+  Topology: 6-Core model: Intel Core i7-9750H bits: 64 type: MT MCP 
+  L2 cache: 12.0 MiB 
+  Speed: 2348 MHz min/max: 800/4500 MHz Core speeds (MHz): 1: 2348 2: 1945 
+  3: 1935 4: 2039 5: 1943 6: 1891 7: 2241 8: 2961 9: 2060 10: 1912 11: 2203 
+  12: 1719 
+Graphics:
+  Device-1: Intel UHD Graphics 630 driver: i915 v: kernel 
+  Device-2: NVIDIA TU116M [GeForce GTX 1660 Ti Mobile] driver: nvidia 
+  v: 460.73.01 
+  Display: server: X.Org 1.20.9 driver: modesetting,nvidia 
+  unloaded: fbdev,nouveau,vesa resolution: 1920x1080~60Hz, 1920x1080~60Hz 
+  OpenGL: renderer: GeForce GTX 1660 Ti/PCIe/SSE2 v: 4.6.0 NVIDIA 460.73.01 
+Audio:
+  Device-1: Intel Cannon Lake PCH cAVS driver: snd_hda_intel 
+  Device-2: NVIDIA TU116 High Definition Audio driver: snd_hda_intel 
+  Sound Server: ALSA v: k5.8.0-53-generic 
+Network:
+  Device-1: Intel Wireless-AC 9560 [Jefferson Peak] driver: iwlwifi 
+  IF: wlo1 state: up mac: 54:8d:5a:dc:4b:41 
+  Device-2: Realtek driver: r8169 
+  IF: enp60s0 state: down mac: 8c:04:ba:a0:7b:1f 
+Drives:
+  Local Storage: total: 1.14 TiB used: 172.65 GiB (14.8%) 
+  ID-1: /dev/nvme0n1 vendor: SK Hynix model: BC511 NVMe 256GB 
+  size: 238.47 GiB 
+  ID-2: /dev/sda vendor: Toshiba model: MQ04ABF100 size: 931.51 GiB 
+Partition:
+  ID-1: / size: 915.40 GiB used: 172.65 GiB (18.9%) fs: ext4 dev: /dev/sda2 
+Sensors:
+  System Temperatures: cpu: 64.0 C mobo: N/A gpu: nvidia temp: 60 C 
+  Fan Speeds (RPM): N/A 
+Info:
+  Processes: 466 Uptime: 11d 51m Memory: 15.45 GiB used: 10.91 GiB (70.6%) 
+  Shell: collect_environ inxi: 3.0.38 
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0         7:0    0  77.2M  1 loop /snap/discord/128
+loop1         7:1    0  98.8M  1 loop /snap/kolourpaint/62
+loop2         7:2    0    51M  1 loop /snap/snap-store/518
+loop3         7:3    0  61.7M  1 loop /snap/core20/975
+loop4         7:4    0    51M  1 loop /snap/snap-store/498
+loop5         7:5    0  55.5M  1 loop /snap/core18/1997
+loop6         7:6    0 243.9M  1 loop /snap/gnome-3-38-2004/39
+loop7         7:7    0 138.9M  1 loop /snap/chromium/1589
+loop8         7:8    0         1 loop 
+loop9         7:9    0 240.6M  1 loop /snap/zoom-client/143
+loop10        7:10   0 134.6M  1 loop /snap/skype/172
+loop11        7:11   0  55.4M  1 loop /snap/core18/2066
+loop12        7:12   0  65.1M  1 loop /snap/gtk-common-themes/1515
+loop13        7:13   0 268.8M  1 loop /snap/gimp/367
+loop14        7:14   0  99.2M  1 loop /snap/core/11167
+loop15        7:15   0  32.1M  1 loop /snap/snapd/11841
+loop16        7:16   0 217.9M  1 loop /snap/gnome-3-34-1804/60
+loop17        7:17   0  32.1M  1 loop /snap/snapd/12057
+loop18        7:18   0    99M  1 loop /snap/core/11081
+loop19        7:19   0 276.7M  1 loop /snap/gimp/372
+loop20        7:20   0 112.5M  1 loop /snap/kolourpaint/59
+loop21        7:21   0 240.9M  1 loop /snap/zoom-client/148
+loop22        7:22   0  61.7M  1 loop /snap/core20/1026
+loop23        7:23   0  76.7M  1 loop /snap/discord/122
+loop24        7:24   0 290.6M  1 loop /snap/kde-frameworks-5-qt-5-14-core18/4
+loop25        7:25   0 162.9M  1 loop /snap/gnome-3-28-1804/145
+loop26        7:26   0  64.8M  1 loop /snap/gtk-common-themes/1514
+loop27        7:27   0   219M  1 loop /snap/gnome-3-34-1804/66
+loop28        7:28   0 260.7M  1 loop /snap/kde-frameworks-5-core18/32
+loop29        7:29   0 323.5M  1 loop /snap/kde-frameworks-5-qt-5-15-core20/14
+loop30        7:30   0         0 loop 
+loop31        7:31   0 134.6M  1 loop /snap/skype/173
+loop32        7:32   0 141.4M  1 loop /snap/chromium/1608
+sda           8:0    0 931.5G  0 disk 
+├─sda1        8:1    0   512M  0 part 
+└─sda2        8:2    0   931G  0 part /
+nvme0n1     259:0    0 238.5G  0 disk 
+├─nvme0n1p1 259:1    0   512M  0 part 
+└─nvme0n1p2 259:2    0   238G  0 part 
+Thu Jun  3 17:26:00 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.73.01    Driver Version: 460.73.01    CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 166...  Off  | 00000000:01:00.0  On |                  N/A |
+| N/A   60C    P5    20W /  N/A |    672MiB /  5944MiB |     20%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A      1401      G   /usr/lib/xorg/Xorg                 59MiB |
+|    0   N/A  N/A      1949      G   /usr/lib/xorg/Xorg                328MiB |
+|    0   N/A  N/A      2119      G   /usr/bin/gnome-shell               91MiB |
+|    0   N/A  N/A     20323      G   /usr/lib/firefox/firefox            1MiB |
+|    0   N/A  N/A     20378      G   /usr/lib/firefox/firefox            1MiB |
+|    0   N/A  N/A     20403      G   /usr/lib/firefox/firefox            1MiB |
+|    0   N/A  N/A     20582      G   /usr/lib/firefox/firefox            5MiB |
+|    0   N/A  N/A     20717      G   /usr/lib/firefox/firefox           19MiB |
+|    0   N/A  N/A     20756      G   /usr/lib/firefox/firefox           19MiB |
+|    0   N/A  N/A     25927      G   /usr/lib/firefox/firefox            5MiB |
+|    0   N/A  N/A     32280      G   /usr/lib/firefox/firefox            1MiB |
+|    0   N/A  N/A    227644      G   ...AAAAAAAAA= --shared-files       11MiB |
+|    0   N/A  N/A    228036      G   ...AAAAAAAAA= --shared-files      108MiB |
++-----------------------------------------------------------------------------+
+H/W path           Device          Class          Description
+=============================================================
+                                   system         G5 5590 (08EA)
+/0                                 bus            0MXHK3
+/0/0                               memory         64KiB BIOS
+/0/38                              memory         16GiB System Memory
+/0/38/0                            memory         8GiB SODIMM DDR4 Synchronous 2667 MHz (0.4 ns)
+/0/38/1                            memory         8GiB SODIMM DDR4 Synchronous 2667 MHz (0.4 ns)
+/0/41                              memory         384KiB L1 cache
+/0/42                              memory         1536KiB L2 cache
+/0/43                              memory         12MiB L3 cache
+/0/44                              processor      Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+/0/100                             bridge         8th Gen Core Processor Host Bridge/DRAM Registers
+/0/100/1                           bridge         Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16)
+/0/100/1/0                         display        TU116M [GeForce GTX 1660 Ti Mobile]
+/0/100/1/0.1                       multimedia     TU116 High Definition Audio Controller
+/0/100/1/0.2                       bus            TU116 USB 3.1 Host Controller
+/0/100/1/0.2/0     usb3            bus            xHCI Host Controller
+/0/100/1/0.2/1     usb4            bus            xHCI Host Controller
+/0/100/1/0.3                       bus            TU116 [GeForce GTX 1650 SUPER]
+/0/100/2                           display        UHD Graphics 630 (Mobile)
+/0/100/4                           generic        Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
+/0/100/8                           generic        Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
+/0/100/12                          generic        Cannon Lake PCH Thermal Controller
+/0/100/14                          bus            Cannon Lake PCH USB 3.1 xHCI Host Controller
+/0/100/14/0        usb1            bus            xHCI Host Controller
+/0/100/14/0/1                      input          USB Optical Mouse
+/0/100/14/0/2                      input          USB Keyboard
+/0/100/14/0/4                      generic        SAMSUNG_Android
+/0/100/14/0/5                      multimedia     Integrated_Webcam_HD
+/0/100/14/0/e                      communication  Bluetooth wireless interface
+/0/100/14/1        usb2            bus            xHCI Host Controller
+/0/100/14.2                        memory         RAM memory
+/0/100/14.3        wlo1            network        Wireless-AC 9560 [Jefferson Peak]
+/0/100/15                          bus            Cannon Lake PCH Serial IO I2C Controller #0
+/0/100/15.1                        bus            Cannon Lake PCH Serial IO I2C Controller #1
+/0/100/16                          communication  Cannon Lake PCH HECI Controller
+/0/100/17                          storage        Cannon Lake Mobile PCH SATA AHCI Controller
+/0/100/1b                          bridge         Cannon Lake PCH PCI Express Root Port #21
+/0/100/1b/0                        bridge         JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
+/0/100/1b/0/0                      bridge         JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
+/0/100/1b/0/0/0                    generic        JHL6340 Thunderbolt 3 NHI (C step) [Alpine Ridge 2C 2016]
+/0/100/1b/0/1                      bridge         JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
+/0/100/1b/0/2                      bridge         JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
+/0/100/1b/0/2/0                    bus            JHL6340 Thunderbolt 3 USB 3.1 Controller (C step) [Alpine Ridge 2C 2016]
+/0/100/1b/0/2/0/0  usb5            bus            xHCI Host Controller
+/0/100/1b/0/2/0/1  usb6            bus            xHCI Host Controller
+/0/100/1d                          bridge         Cannon Lake PCH PCI Express Root Port #9
+/0/100/1d/0                        storage        SK hynix
+/0/100/1d/0/0      /dev/nvme0      storage        BC511 NVMe SK hynix 256GB
+/0/100/1d/0/0/1    /dev/nvme0n1    disk           256GB NVMe namespace
+/0/100/1d/0/0/1/1  /dev/nvme0n1p1  volume         511MiB Windows FAT volume
+/0/100/1d/0/0/1/2  /dev/nvme0n1p2  volume         237GiB EXT4 volume
+/0/100/1d.5                        bridge         Cannon Lake PCH PCI Express Root Port #14
+/0/100/1d.5/0      enp60s0         network        Realtek Semiconductor Co., Ltd.
+/0/100/1f                          bridge         HM470 Chipset LPC/eSPI Controller
+/0/100/1f.3                        multimedia     Cannon Lake PCH cAVS
+/0/100/1f.4                        bus            Cannon Lake PCH SMBus Controller
+/0/100/1f.5                        bus            Cannon Lake PCH SPI Controller
+/0/1                               system         PnP device PNP0c02
+/0/2                               system         PnP device PNP0c02
+/0/3                               system         PnP device PNP0b00
+/0/4                               generic        PnP device INT3f0d
+/0/5                               input          PnP device PNP0303
+/0/6                               generic        PnP device DLL08ea
+/0/7                               system         PnP device PNP0c02
+/0/8                               system         PnP device PNP0c02
+/0/9                               system         PnP device PNP0c02
+/0/a                               system         PnP device PNP0c02
+/0/b               scsi0           storage        
+/0/b/0.0.0         /dev/sda        disk           1TB TOSHIBA MQ04ABF1
+/0/b/0.0.0/1       /dev/sda1       volume         511MiB Windows FAT volume
+/0/b/0.0.0/2       /dev/sda2       volume         931GiB EXT4 volume
+/1                                 power          DELL JJPFK87
